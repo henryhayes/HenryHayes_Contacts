@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HenryHayes_Contacts>
+            <version>1.0.0</version>
+        </HenryHayes_Contacts>
+    </modules>
+    <global>
+    	<helpers>
+            <henryahyes_contacts>
+                <class>HenryHayes_Contacts_Helper</class>
+            </henryahyes_contacts>
+    	</helpers>
+    </global>
+</config>
