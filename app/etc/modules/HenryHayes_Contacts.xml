@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <HenryHayes_Contacts>
+            <active>true</active>
+            <codePool>community</codePool>
+        </HenryHayes_Contacts>
+    </modules>
+</config>
