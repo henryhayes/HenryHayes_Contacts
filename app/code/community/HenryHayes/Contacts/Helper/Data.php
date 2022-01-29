@@ -69,7 +69,7 @@ class HenryHayes_Contacts_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function getContatName($contactType)
     {
-        if (false === hasContactType($contactType)) {
+        if (false === $this->hasContactType($contactType)) {
             Mage::throwException('Contact Type "' . $contactType . '" was not found.');
         }
         
@@ -88,7 +88,7 @@ class HenryHayes_Contacts_Helper_Data extends Mage_Core_Helper_Abstract
      */
     public function getContatEmail($contactType)
     {
-        if (false === hasContactType($contactType)) {
+        if (false === $this->hasContactType($contactType)) {
             Mage::throwException('Contact Type "' . $contactType . '" was not found.');
         }
         
